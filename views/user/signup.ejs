@@ -1,0 +1,18 @@
+<% include ../partials/header %>
+
+<div class="signup">
+  <form class="ui form" action="/user/signup" method="POST">
+    <h4 class="ui dividing header">Sign Up</h4>
+    <div class="field">
+      <label>E-mail</label>
+      <input type="text" name="email" placeholder="E-mail">
+    </div>
+    <div class="field">
+      <label>Password</label>
+      <input type="password" name="password" placeholder="Password">
+    </div>
+    <button class="ui violet button">Sign Up</button>
+  </form>
+</div>
+
+<% include ../partials/footer %>
